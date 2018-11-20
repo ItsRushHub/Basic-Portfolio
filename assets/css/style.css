@@ -112,16 +112,17 @@ img {
 }
 
 
-
-
-
-
-
 /* Portfolio Page */
 
-
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
 
 #ad3left {
+    bottom: 15px;
     position: relative;
     float: left;
     margin-left: 50px;
@@ -132,16 +133,18 @@ img {
     bottom: 5px;
     background-color:#4aaaa5;
     color: white;
-    width: 10%;
+    width: 84%;
     margin-left: 10px;
 }
 
 
 
+
 #ad4middle {
     position: relative;
+    bottom: 15px;
     float: left;
-    padding: 20px 0;
+    margin-left: 200px;
 }
 
 .text-block2 {
@@ -149,38 +152,73 @@ img {
     bottom: 5px;
     background-color:#4aaaa5;
     color: white;
-    width: 10%;
-    margin-left: 320px;
+    width: 84%;
+    margin-left: 10px;
 }
 
+#ad5right {
+    position: relative;
+    bottom: 15px;
+    float: right;
+    margin-right: 50px;
+}
 
+.text-block3 {
+    position: absolute
+    bottom: 5px;
+    background-color:#4aaaa5;
+    color: white;
+    width: 91%;
+    margin-left: 10px;
+}
 
+#bottomleft {
+    position: absolute;
+    top: 380px;
+    float: bottom;
+    margin-left: 50px;
+}
 
+.text-block4 {
+    position: absolute;
+    bottom: 5px;
+    background-color:#4aaaa5;
+    color: white;
+    width: 86%;
+    margin-left: 10px;
+}
 
+#bottommiddle {
+    position: absolute;
+    top: 380px;
+    float: bottom;
+    margin-left: 300px;
+}
 
+.text-block5 {
+    position: absolute;
+    bottom: 5px;
+    background-color:#4aaaa5;
+    color: white;
+    width: 92%;
+    margin-left: 10px;
+}
 
+#bottomright {
+    position: absolute;
+    top: 380px;
+    float: bottom;
+    margin-left: 740px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.text-block6 {
+    position: absolute;
+    bottom: 5px;
+    background-color:#4aaaa5;
+    color: white;
+    width: 85%;
+    margin-left: 10px;
+}
 
 
 /* Contact Page */
